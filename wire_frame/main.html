@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A New Beggining</title>
+</head>
+<body>
+
+    <script src="https://cdn.jsdelivr.net/npm/gl-matrix@2.8.1/dist/gl-matrix-min.js" defer></script>
+    <script src="script.js" defer></script>
+    <canvas width="500" height="500"></canvas>
+    <div>
+    <label for="slider1">Slider 1:</label>
+    <input type="range" id="slider1" min="2" max="200" value="10" oninput="updateSliders()">
+    <span id="value1">100</span><br>
+
+    <label for="slider2">Slider 2:</label>
+    <input type="range" id="slider2" min="2" max="200" value="20" oninput="updateSliders()">
+    <span id="value2">50</span><br>
+    </div>
+
+</body>
+</html>
